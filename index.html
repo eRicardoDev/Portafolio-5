@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio 5</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar__container">
+
+        <div id="menu" class="menu">
+        <i class='bx bx-x menu__icon menu--close'></i>
+        <nav class="menu__list">
+          <a class="menu__link" href="#">Home</a>
+          <a class="menu__link" href="#skills">Experiencia y habilidades</a>
+          <a class="menu__link" href="#projects">Portafolio</a>
+          <a class="menu__link" href="#contact">Contacto</a>
+        </nav>
+      </div>
+
+      <i class='bx bx-menu menu__icon menu--open'></i>
+    </div>
+  </div>
+
+  <main class="main">
+
+    <section id="home" class="home">
+      <div class="home__container grid">
+        
+        <div class="home__data">
+            <h1 class="home__title">Design <br> experience</h1>
+            <p class="home__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p class="home__experience"><span class="text--color">+5 años</span>  de experiencia</p>
+            
+            <div class="home__social">  
+              <a href="#" target="_blank" class="home__link">
+                <i class='bx bxl-linkedin home__icon'></i>
+              </a>
+              <a href="#" target="_blank" class="home__link">
+                <i class='bx bxl-instagram-alt home__icon'></i>
+              </a>
+              <a href="#" target="_blank" class="home__link">
+                <i class='bx bxl-twitter home__icon'></i>
+              </a>
+            </div> 
+            <a class="button" href="#">
+              <img class="button__icono" src="Íconos/mail 1.svg" alt="mail">
+              <span class="button__texto">Contáctame</span>
+            </a>
+        </div>
+        <div class="home__image">
+          <img class="home__picture" src="Imágenes/photo desktop.png" alt="home picture">
+        </div>
+               
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="skills__container">
+          <div class="skills__block grid">
+            <div class="skills__tech">
+              <h2 class="skills__title">Experiencia y habilidades</h2>
+              <p class="skills__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skills__tech">
+              <h3 class="skills__subtittulo">Experiencia</h3>
+              <table class="skills__tabla">
+                <tr class="skills__tabla--data">
+                  <td class="skills__tabla--years">2016-2018</td>
+                  <td class="skills__tabla--description"><span>Visual designer</span><br>Wizeline</td>
+                </tr>
+                <tr class="skills__tabla--data">
+                  <td class="skills__tabla--years">2018-2019</td>
+                  <td class="skills__tabla--description"><span>Product designer</span><br>Microsoft</td>
+                </tr>
+                <tr class="skills__tabla--data">
+                  <td class="skills__tabla--years">2019-2021</td>
+                  <td class="skills__tabla--description"><span>UI Engineer</span><br>Google</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        <div class="skills__apps">
+          <h3 class="skills__sutitulo">Habilidades</h3>
+          <div class="skill__contenedor-icono grid">
+            <div class="skills__app">
+              <img class="skills__icono" src="Íconos/mobile.svg" alt="">
+              <p class="skills__icono-texto">Mobile app design</p>
+            </div>
+            <div class="skills__app">
+              <img class="skills__icono" src="Íconos/motion.svg" alt="">
+              <p class="skills__icono-texto">Motion Design</p>
+            </div>
+            <div class="skills__app">
+              <img class="skills__icono" src="Íconos/material.svg" alt="">
+              <p class="skills__icono-texto">Creación y mantenimiento de sistemas de diseño</p>
+            </div>
+            <div class="skills__app">
+              <img class="skills__icono" src="Íconos/design.svg" alt="">
+              <p class="skills__icono-texto">Gestión de proyectos</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="projects__container">
+          <h2 class="projects__title">Portafolio</h2>
+          <div class="projects__apps grid">
+
+            <div class="projects__app">
+              <h3 class="projects__app--title">Beauty app</h3>
+              <img src="Imágenes/ejemplo 3.png" alt="Beauty app" class="projects__app--img">
+            </div>
+            <div class="projects__app">
+              <h3 class="projects__app--title">Training app</h3>
+              <img src="Imágenes/ejemplo 1.png" alt="Training app" class="projects__app--img">
+            </div>
+            <div class="projects__app">
+              <h3 class="projects__app--title">Hotel app</h3>
+              <img src="Imágenes/ejemplo 2.png" alt="Hotel app" class="projects__app--img">
+            </div>
+        
+          </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact__container">
+          <h2 class="contact__title">Contacto</h2>
+          <div class="contact__medios">
+            <div class="contact__iconos">
+              <img src="Íconos/phone.svg" alt="" class="contact__icono">
+              <p class="contact__tipo">Número de celular</p>
+              <p class="contact__dato">5526895424</p>
+            </div>
+            <div class="contact__iconos">
+              <img src="Íconos/mail.svg" alt="" class="contact__icono">
+              <p class="contact__tipo">Email</p>
+              <p class="contact__dato">example@correo.com</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">Hecho con ♥ en Academlo</p>
+  </footer>
+  
+  <script src="./main.js"></script>
+</body>
+</html>
